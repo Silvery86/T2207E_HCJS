@@ -1,6 +1,7 @@
 body{
     background-color: beige;
     background-image: url("../images/anh2-4132-1660632035.jpeg");
+    background-size: cover;
 }
 h1{
     color: rgba(113, 29, 121, 0.72);
