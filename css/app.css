@@ -2,5 +2,6 @@ h1{
     color: rgba(113, 29, 121, 0.72);
 }
 p{
-    color: #9c1420;
+    color: #9c142050;
+    font-size: 16px;
 }
