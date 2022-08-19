@@ -1,5 +1,6 @@
 body{
     background-color: beige;
+    background-image: url("../images/anh2-4132-1660632035.jpeg");
 }
 h1{
     color: rgba(113, 29, 121, 0.72);
@@ -10,7 +11,7 @@ p{
     font-weight: 400;
     font-family: Arial;
     line-height: 1.5;
-    text-align: ; /* left right center justify */
+    text-align: center; /* left right center justify */
     text-decoration: none; /* underline line-through overline none*/
     text-transform: lowercase; /* uppercase lowercase capitalize none */
     font-style: italic;
