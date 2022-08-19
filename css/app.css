@@ -9,6 +9,8 @@ p{
     line-height: 1.5;
     text-align: center; /* left right center justify */
     text-decoration: none; /* underline line-through overline none*/
+    text-transform: lowercase; /* uppercase lowercase capitalize none */
+    font-style: italic;
 
 }
 a{
