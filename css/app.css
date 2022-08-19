@@ -14,7 +14,7 @@ p{
     line-height: 1.5;
     text-align: center; /* left right center justify */
     text-decoration: none; /* underline line-through overline none*/
-    text-transform: lowercase; /* uppercase lowercase capitalize none */
+    text-transform: none; /* uppercase lowercase capitalize none */
     font-style: italic;
     background-color: rgba(0, 255, 255, 0.84);
     width: 800px;
