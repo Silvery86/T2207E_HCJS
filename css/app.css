@@ -10,7 +10,7 @@ p{
     font-weight: 400;
     font-family: Arial;
     line-height: 1.5;
-    text-align: center; /* left right center justify */
+    text-align: justify; /* left right center justify */
     text-decoration: none; /* underline line-through overline none*/
     text-transform: lowercase; /* uppercase lowercase capitalize none */
     font-style: italic;
