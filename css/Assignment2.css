@@ -1,7 +1,7 @@
 body{
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid rgba(0, 128, 0, 0);
     padding: 10px;
 }
 h1{
