@@ -35,3 +35,9 @@ p{
     margin-block-end: 15px;
     margin-block-start: 15px;
 }
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
