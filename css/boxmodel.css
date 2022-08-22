@@ -4,7 +4,7 @@ div{
     (phải có khoảng cách giữa dấu cộng trừ)
     */
     float: left; /* left right none */
-    border: 10px solid red; /* solid dotted dashed */
+    border: 2px solid red; /* solid dotted dashed */
     /*
     border-top:
     border-left:
