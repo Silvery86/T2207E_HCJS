@@ -1,5 +1,6 @@
 div{
     width: calc(25% - 20px);
+    /* Phép tính trừ để chiều rộng khối đúng với yêu cầu*/
     float: left; /* left right none */
     border: 1px solid red; /* solid dotted dashed */
     /*
