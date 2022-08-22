@@ -49,6 +49,8 @@ div{
     3: Độ mờ bóng
     4: Màu
     */
+    transition: 1s all:
+    /*Làm cho các sự dịch chuyển về hiệu ứng làm trong n thời gian mới xong*/
 
 }
 div:hover{
@@ -58,7 +60,7 @@ div:hover{
     translate: dịch chuyển khoảng x,y translate(50px,60px)
     rotate: xoay 1 góc a rotate(45deg)
     scale: phóng to x lần scale(1.5)
-    Nếu viết 2 hay nhiều lệnh trên thì sẽ sử dụng cái cuối cùng
+    Nếu viết 2 hay nhiều lệnh trên thì sẽ sử dụng cái cuối
     */
 
 }
