@@ -49,6 +49,11 @@ div{
     3: Độ mờ bóng
     4: Màu
     */
+
+}
+div:hover{
+    /*hover: Trạng thái của phần tử khi được người dùng đưa chuột vào*/
+    transform: translate(50px,60px);
 }
 img{
     max-width: 100%;
