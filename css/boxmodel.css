@@ -56,7 +56,7 @@ div{
 div:hover{
     /*hover: Trạng thái của phần tử khi được người dùng đưa chuột vào*/
     transform: rotate(45deg);
-    transform: scale(1.5);
+    transform: scale(0.5);
     /*transform : biến đổi góc nhìn của phẩn tử sang vị trí khác
     translate: dịch chuyển khoảng x,y translate(50px,60px)
     rotate: xoay 1 góc a rotate(45deg)
