@@ -42,8 +42,12 @@ div{
     /*
     Tạo bo góc cho border
     */
-    box-shadow: 5px 10px 10px black;
-    /*
+    box-shadow: 0px 0px 10px  ;
+    /*Thông số
+    1: Giá trị trục x
+    2: Giá trị trục y
+    3: Độ mờ bóng
+    4: Màu
     */
 }
 img{
