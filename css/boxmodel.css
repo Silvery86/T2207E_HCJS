@@ -1,5 +1,5 @@
 div{
-    width: 25%;
+    width: calc(25% - 20px);
     float: left; /* left right none */
     border: 1px solid red; /* solid dotted dashed */
     /*
