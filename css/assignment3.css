@@ -17,6 +17,10 @@ img{
     width:35%;
     float: left;
 }
+.left h2{
+    color:white;
+    background-color:green;
+}
 
 .right{
     width:65%;
