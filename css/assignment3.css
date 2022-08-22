@@ -1,0 +1,15 @@
+.head{
+    width: 100%;
+    background-color: green;
+
+}
+.head h1{
+    text-color: white;
+}
+.head h3{
+    text-color: rgba(255, 255, 255, 0.6);
+}
+img{
+    max-width: 25%
+    float: left;
+}
