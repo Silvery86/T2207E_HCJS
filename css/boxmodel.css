@@ -72,6 +72,10 @@ img{
 #box-a{
     background-color: green;
 }
+/*Một nhóm có thể có nhiều phần từ và 1 phần tử có thể có nhiều nhóm*/
 .box-b{
     background-color: orange;
+}
+.box-c{
+    border-radius: 50px;
 }
