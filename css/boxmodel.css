@@ -9,7 +9,7 @@ div{
     border-bottom:
     Tuy chon vien theo nhu cau
      */
-    margin: 10px 20px 30px 40px;
+    margin: 10px;
     /* Tạo khoảng trống giữa các phần từ
     Nếu đủ 4 thông số thì top luôn là đứng đầu tiên sau đo theo chiều kim đồng hồ
     Nếu khuyết thông số thì sẽ lấy thông số theo phần tử đối diện.
@@ -19,7 +19,8 @@ div{
      margin-bottom:
      Tùy chọn viền theo nhu cầu
      */
-
+    padding: 15px;
+    /* Khoảng cách từ border vào giữa nội dung */
 }
 img{
     max-width: 100%;
