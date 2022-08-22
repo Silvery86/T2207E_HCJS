@@ -1,7 +1,7 @@
 div{
     width: 300px;
     float: left; /* left right none */
-    boder: 1px solid red; /* solid dotted dashed */
+    border: 1px solid red; /* solid dotted dashed */
 }
 img{
     max-width: 100%;
