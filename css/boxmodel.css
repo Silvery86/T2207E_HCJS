@@ -53,7 +53,14 @@ div{
 }
 div:hover{
     /*hover: Trạng thái của phần tử khi được người dùng đưa chuột vào*/
-    transform: translate(50px,60px);
+    transform: rotate(45deg);
+    /*transform : biến đổi góc nhìn của phẩn tử sang vị trí khác
+    translate: dịch chuyển khoảng x,y translate(50px,60px)
+    rotate: xoay 1 góc a rotate(45deg)
+    scale: phóng to x lần scale(1.5)
+    Nếu viết 2 hay nhiều lệnh trên thì sẽ sử dụng cái cuối cùng
+    */
+
 }
 img{
     max-width: 100%;
