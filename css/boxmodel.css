@@ -1,5 +1,6 @@
 div{
     width: 300px;
+    float: left;
 }
 img{
     max-width: 100%;
