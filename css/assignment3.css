@@ -18,6 +18,7 @@ img{
     float: left;
 }
 .left h2{
+    border:1px solid green;
     color:white;
     background-color:green;
 }
