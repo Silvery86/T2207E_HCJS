@@ -79,3 +79,9 @@ img{
 .box-c{
     border-radius: 50px;
 }
+/* Mức độ ưu tiên của seletor:
+1.Khi selector cùng cấp độ ưu tiên và cùng thuộc tính thì cái nào viết sau sẽ là thuộc tính được sử dụng
+2.Sẽ ưu tiên nếu thẻ ở cấp độ cao hơn thì càng chỉ rõ thì cấp độ ưu tiên càng cao hơn
+3. Nếu cũng cấp ưu tiên thì thứ tự ưu tiên ID > Class > Tag
+4. ID là ưu tiên mạnh nhất lớn hơn cả mục 2.
+*/
