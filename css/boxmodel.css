@@ -19,8 +19,14 @@ div{
      margin-bottom:
      Tùy chọn viền theo nhu cầu
      */
-    padding: 15px;
-    /* Khoảng cách từ border vào giữa nội dung */
+    padding: 15px 20px 15px 20px;
+    /* Khoảng cách từ border vào giữa nội dung
+    padding-top:
+    padding-right:
+    padding-botton:
+    padding-left:
+    Nếu có 4 thông số nguyên tắc như margin
+    */
 }
 img{
     max-width: 100%;
