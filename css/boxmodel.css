@@ -28,7 +28,7 @@ div{
     Nếu có 4 thông số nguyên tắc như margin
     Padding cộng vào diện tích của khối còn margin thì không cộng vào diện tích của khối
     */
-    box-sizing: content-box;
+    box-sizing: border-box;
     /* Điều chỉnh lại diện tích bằng với diện tích ở width
     content-box: Diện tích khối sẽ tính từ nội dung khối đi vào
     border-box: Diện tích khối tính theo border đi vào
