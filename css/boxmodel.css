@@ -42,6 +42,9 @@ div{
     /*
     Tạo bo góc cho border
     */
+    box-shadow: 5px 10px 10px black;
+    /*
+    */
 }
 img{
     max-width: 100%;
