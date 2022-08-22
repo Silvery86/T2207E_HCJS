@@ -1,6 +1,7 @@
 div{
     width: 300px;
-    float: left;
+    float: left; /* left right none */
+    boder: 1px solid red;
 }
 img{
     max-width: 100%;
