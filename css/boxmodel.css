@@ -2,6 +2,14 @@ div{
     width: 300px;
     float: left; /* left right none */
     border: 1px solid red; /* solid dotted dashed */
+    /*
+    border-top:
+    border-left:
+    border-right:
+    border-bottom:
+    Tuy chon vien theo nhu cau
+     */
+    margin: 10px;
 }
 img{
     max-width: 100%;
