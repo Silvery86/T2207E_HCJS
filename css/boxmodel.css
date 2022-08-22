@@ -26,6 +26,7 @@ div{
     padding-botton:
     padding-left:
     Nếu có 4 thông số nguyên tắc như margin
+    Padding cộng vào diện tích của khối còn margin thì không cộng vào diện tích của khối
     */
 }
 img{
