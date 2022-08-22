@@ -68,3 +68,7 @@ div:hover{
 img{
     max-width: 100%;
 }
+/*Trong 1 file html không được có 2 phần tử cùng ID*/
+#box-a{
+    background-color: green;
+}
