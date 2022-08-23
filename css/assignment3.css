@@ -89,6 +89,7 @@ p{
     background-color: white;
     margin: 15px 5px 15px 20px;
     padding:10px;
+    box-sizing: border-box;
 }
 .content{
     width: calc(70% - 20px);
@@ -99,9 +100,11 @@ p{
     margin: 15px 20px 15px 5px;
     background-color: white;
     padding:10px;
+    box-sizing: border-box;
 }
 .history{
     margin: 15px 20px 15px 5px;
     background-color: white;
     padding:10px;
+    box-sizing: border-box;
 }
