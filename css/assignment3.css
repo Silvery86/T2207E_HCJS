@@ -76,11 +76,11 @@ p{
     margin-left:10px;
 }
 .slidebar{
-    width: cals(30% - 20px);
+    width: calc(30% - 20px);
     float: left;
 }
 .content{
-    width: cals(70% - 20px);
+    width: calc(70% - 20px);
     float: right;
 }
 .contact.skills.degree{
