@@ -57,6 +57,7 @@ p{
     width: 50%;
     height:1000px;
     background-color: rgba(241, 241, 241, 0.8);
+    box-sizing: border-box;
 }
 .avatar{
     width:100%;
