@@ -52,6 +52,8 @@ p{
 }
 /*Phần điều chỉnh vị trí của box model*/
 .home{
+    margin-left:25%;
+    margin-right:25%;
     width: 50%;
     height:100%;
     background-color: #a6a4a4;
