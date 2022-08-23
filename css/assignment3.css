@@ -56,7 +56,7 @@ p{
     margin-right:25%;
     width: 50%;
     height:1000px;
-    background-color: #a6a4a4;
+    background-color: rgba(241, 241, 241, 0.8);
 }
 .avatar{
     width:100%;
@@ -86,13 +86,14 @@ p{
     width: calc(30% - 20px);
     float: left;
     background-color: white;
-    margin: 10px 5px 10px 15px;
+    margin: 15px 5px 15px 20px;
 }
 .content{
     width: calc(70% - 20px);
     float: right;
     background-color: white;
-    margin: 10px 5px 10px 15px;
 }
-
+.about.history{
+    margin: 15px 20px 15px 5px;
+}
 
