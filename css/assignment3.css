@@ -92,11 +92,13 @@ p{
 .content{
     width: calc(70% - 20px);
     float: right;
-    background-color: white;
+    background-color: rgba(241, 241, 241, 0.8);
 }
 .about{
     margin: 15px 20px 15px 5px;
+    background-color: white;
 }
 .history{
     margin: 15px 20px 15px 5px;
+    background-color: white;
 }
