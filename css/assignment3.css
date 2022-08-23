@@ -52,8 +52,8 @@ p{
 }
 /*Phần điều chỉnh vị trí của box model*/
 .home{
-    margin: auto;
     width: 50%;
+    height:100%;
     background-color: #a6a4a4;
 }
 .avatar{
