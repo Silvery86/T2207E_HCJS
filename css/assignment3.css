@@ -94,7 +94,9 @@ p{
     float: right;
     background-color: white;
 }
-.about.history{
+.about{
     margin: 15px 20px 15px 5px;
 }
-
+.history{
+    margin: 15px 20px 15px 5px;
+}
