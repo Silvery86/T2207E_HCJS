@@ -80,11 +80,11 @@ p{
     margin-top:15px;
     margin-left:10px;
 }
-.slidebar{
+.slidebar div{
     width: calc(30% - 20px);
     float: left;
 }
-.content{
+.content div{
     width: calc(70% - 20px);
     float: right;
 }
