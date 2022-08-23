@@ -69,8 +69,10 @@ p{
     float: right;
 }
 .slidebar{
+    width:30%;
     float: left;
 }
 .content{
+    width:70%;
     float: right;
 }
