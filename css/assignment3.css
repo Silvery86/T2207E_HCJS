@@ -52,15 +52,18 @@ p{
 }
 .avatar {
     width:100%;
-    float: left;
+
     background-color:green;
 }
 .avatar img{
     max-width:35%;
+    float: left;
 }
 .avatar h1{
     max-width:65%;
+    float: right;
 }
 .avatar h3{
     max-width:65%;
+    float: right;
 }
