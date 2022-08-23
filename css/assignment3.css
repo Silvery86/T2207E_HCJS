@@ -19,7 +19,8 @@ img{
     max-height: 100%;
     max-width: 25%;
     float: left;
-    padding:15px;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 .left{
     width:35%;
