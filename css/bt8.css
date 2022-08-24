@@ -2,25 +2,27 @@ sup{
     color:red;
 }
 .home{
+
     margin-left:25%;
     margin-right:25%;
     width: 50%;
-    background-color: rgba(241, 241, 241, 0.8);
+    background-color: white;
     box-sizing: border-box;
 }
 h1{
-
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size:40px;
     font-weight:500;
     width:100%;
-    background-color: #5ad75a;
+    background-color: #2eb22e;
     color: white;
     padding:10px;
     box-sizing: border-box;
-    border: 20px solid #5ad75a;
+    border: 20px solid #2eb22e;
 
 }
 label{
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size:30px;
 }
 
@@ -28,21 +30,35 @@ input[type=email]{
     padding:5px;
     width:100%;
     box-sizing: border-box;
+
 }
 input[type=tel]{
     padding:5px;
     width:100%;
     box-sizing: border-box;
+
 }
 .name{
-    width:50%;
+    width: 50%;
     float: left;
     padding:5px;
     box-sizing: border-box;
 }
 .name label{
-    color: rgb(75, 72, 72);
+    color: rgba(75, 72, 72, 0.37);
 }
 button{
     font-size:30px;
+}
+.all{
+    padding: 15px 25px;
+
+}
+.fullname{
+    padding: 15px 25px;
+}
+input{
+    font-size:40px;
+
+    width:100%;
 }
