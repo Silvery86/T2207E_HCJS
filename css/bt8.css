@@ -35,3 +35,7 @@ input[type=tel]{
     padding:5px;
     box-sizing: border-box;
 }
+.all{
+    padding:20px;
+    box-sizing: border-box;
+}
