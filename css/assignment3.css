@@ -62,7 +62,7 @@ p{
 .avatar{
     width:100%;
     height:250px;
-    background-color:green;
+    background-color: #008000;
 }
 .avatar img{
     max-width:35%;
