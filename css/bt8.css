@@ -2,7 +2,6 @@ sup{
     color:red;
 }
 .home{
-    float:left;
     margin-left:25%;
     margin-right:25%;
     width: 50%;
@@ -16,15 +15,16 @@ h1{
     padding:10px;
 
 }
-input[type=firstname]{
-    width:40%;
-}
-input[type=lastname]{
-    width:40%;
-}
+
 input[type=email]{
     width:100%;
 }
 input[type=tel]{
     width:100%;
+}
+.name{
+    width:50%
+    float: left;
+    padding:5px;
+    box-sizing: content-box;
 }
