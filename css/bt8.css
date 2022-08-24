@@ -7,6 +7,7 @@ sup{
     width: 50%;
     background-color: rgba(241, 241, 241, 0.8);
     box-sizing: border-box;
+    padding:20px;
 }
 h1{
     font-size:35px;
@@ -33,9 +34,5 @@ input[type=tel]{
     width:50%;
     float: left;
     padding:5px;
-    box-sizing: border-box;
-}
-.all{
-    padding:20px;
     box-sizing: border-box;
 }
