@@ -43,13 +43,22 @@
       <label><input type="radio" name="your_gender" value="male"/>Nam</label>
       <label><input type="radio" name="your_gender" value="female"/>Nữ</label>
       <label><input type="radio" name="your_gender" value="other"/>Khác</label>
-<!--          form radio phải có giá trị value thì khi trả giá trị về sever mới có giá trị-->
+<!--  form radio phải có giá trị value thì khi trả giá trị về sever mới có giá trị-->
           <br/>
           <label>Checkbox</label>
           <label><input type="checkbox" name="confirm" value="Yes"/>Tôi đã đọc và đồng ý với điều khoản trên</label>
           <br/>
           <label>Tiểu sử bản thân</label>
           <textarea name="description" row="10" cols="50"></textarea>
+          <br/>
+          <label>Tỉnh/Thành phố</label>
+          <select name="city">
+                <option value="hanoi">Hà Nội</option>
+                <option value="saigon">TP Hồ Chí Minh</option>
+                <option value="haiphong">Hải Phòng</option>
+                <option value="cantho">Cần Thơ</option>
+          </select>
+
 
     </form>
 </body>
