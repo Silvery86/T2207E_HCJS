@@ -47,6 +47,7 @@ input[type=tel]{
     color: rgba(75, 72, 72, 0.37);
 }
 button{
+    padding:10px 30px;
     font-size:30px;
 }
 .all{
