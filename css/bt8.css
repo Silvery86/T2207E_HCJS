@@ -11,7 +11,7 @@ sup{
 }
 h1{
     font-family:inherit;
-    font-size:35px;
+    font-size:40px;
     font-weight:500;
     width:100%;
     background-color: #5ad75a;
@@ -21,7 +21,7 @@ h1{
 
 }
 label{
-    font-size:15px;
+    font-size:30px;
 }
 
 input[type=email]{
@@ -39,4 +39,7 @@ input[type=tel]{
     float: left;
     padding:5px;
     box-sizing: border-box;
+}
+.name label{
+    color: rgb(75, 72, 72);
 }
