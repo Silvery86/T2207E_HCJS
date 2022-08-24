@@ -1,3 +1,29 @@
 sup{
     color:red;
 }
+.body{
+    margin-left:25%;
+    margin-right:25%;
+    width: 50%;
+    background-color: rgba(241, 241, 241, 0.8);
+    box-sizing: border-box;
+}
+h1{
+    width:100%;
+    background-color: green;
+    color: white;
+    padding:10px;
+
+}
+input[type=firstname]{
+    width:40%;
+}
+input[type=lastname]{
+    width:40%;
+}
+input[type=email]{
+    width:100%;
+}
+input[type=tel]{
+    width:100%;
+}
