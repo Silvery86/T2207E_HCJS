@@ -9,6 +9,7 @@ sup{
     box-sizing: border-box;
 }
 h1{
+
     width:100%;
     background-color: green;
     color: white;
@@ -24,7 +25,7 @@ input[type=tel]{
     width:100%;
 }
 .name{
-    width:50%
+    width:50%;
     float: left;
     padding:5px;
     box-sizing: border-box;
