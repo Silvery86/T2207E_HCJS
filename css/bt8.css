@@ -43,3 +43,6 @@ input[type=tel]{
 .name label{
     color: rgb(75, 72, 72);
 }
+button{
+    font-size:30px;
+}
