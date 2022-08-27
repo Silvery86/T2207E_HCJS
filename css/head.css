@@ -48,15 +48,18 @@ li{
 }
 .cart li{
     float: left;
+
 }
 .menu li a{
     float:left;
     margin-right: 20px;
     line-height: 42px;
+    color:#22222290;
 }
 .cart a{
     margin-left:20px;
     line-height: 42px;
+    color:#22222290;
 }
 .logo a{
     font-size:40px;
