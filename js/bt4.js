@@ -5,19 +5,13 @@ function loadingMenu() {
         // console.log(this.responseText);
         var all = data.list;
         for (var i=0;i<all.length;i++){
-            var date = all[i].dt_txt;
-            var tp = all[i].main.temp;
-            var ic = all[i].weather[0].icon;
-            var ds = all[i].weather[0].description;
-            console.log(all[i].weather.icon);
             var content = `<div class="main">
-                      <h2><span class="datetime">${date}</span></h2>
-                      <span><img src="https://openweathermap.org/img/wn/${ic}@2x.png"/></span>
-                      <h1><span class = "temp">${tp}</span><sup>o</sup>C</h1>
-                      <h3><span class = "des">${ds}</span></h3>
+                      <h2>${all[i].dt_txt}</h2>
+                      <h1>${all[i].main.temp}<sup>o</sup>C</h1>
+                      <h3>${all[i].weather[0].description}</h3>
+                      <img src="https://openweathermap.org/img/wn/${all[i].weather[0].icon}@2x.png"/>
                       </div>`;
-            var div = document.getElementById("all");
-            div.innerHTML += content;
+            document.getElementById("all").innerHTML += content;
         }
     }
     var link = "https://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
