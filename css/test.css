@@ -40,7 +40,7 @@ button{
     width:75%;
     background-color:rgba(145, 37, 154, 0.56);
     padding: 10px 0;
-
+    color: rgba(243, 242, 243, 0.92);
 }
 .container{
     width:600px;
