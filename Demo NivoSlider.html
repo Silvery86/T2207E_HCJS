@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Novoslider</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="libs/nivoslider/themes/default/default.css">
+    <link rel="stylesheet" href="libs/nivoslider/nivo-slider.css">
+    <link rel="stylesheet" href="libs/megamenu/css/megamenu.css">
+
+</head>
+<body>
+<section class="section navigator">
+    <div class="container">
+        <div class="menu-container">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="http://marioloncarek.com">About</a>
+                        <ul>
+                            <li><a href="#">School</a>
+                                <ul>
+                                    <li><a href="#">Lidership</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Locations</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Study</a>
+                                <ul>
+                                    <li><a href="#">Undergraduate</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">International</a></li>
+                                    <li><a href="#">Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Research</a>
+                                <ul>
+                                    <li><a href="#">Undergraduate research</a></li>
+                                    <li><a href="#">Masters research</a></li>
+                                    <li><a href="#">Funding</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Something</a>
+                                <ul>
+                                    <li><a href="#">Sub something</a></li>
+                                    <li><a href="#">Sub something</a></li>
+                                    <li><a href="#">Sub something</a></li>
+                                    <li><a href="#">Sub something</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a>
+                        <ul>
+                            <li><a href="#">Today</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Sport</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://marioloncarek.com">Contact</a>
+                        <ul>
+                            <li><a href="#">School</a>
+                                <ul>
+                                    <li><a href="#">Lidership</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Locations</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Study</a>
+                                <ul>
+                                    <li><a href="#">Undergraduate</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">International</a></li>
+                                    <li><a href="#">Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Study</a>
+                                <ul>
+                                    <li><a href="#">Undergraduate</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">International</a></li>
+                                    <li><a href="#">Online</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Empty sub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="description">
+            <h4><a href="https://github.com/marioloncarek/megamenu-js" target="_blank">Star and fork on github</a></h4>
+            <iframe src="https://ghbtns.com/github-btn.html?user=marioloncarek&repo=megamenu-js&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=marioloncarek&repo=megamenu-js&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+            <h3>megamenu.js - Last responsive megamenu you'll ever need</h3>
+            <h5>Features:</h5>
+            <ul>
+                <li>IE8 Compatible (jquery animated)</li>
+                <li>No classes! (for dropdowns)</li>
+                <li>Smart - knows when to show megamenu</li>
+                <li>100% responsive</li>
+                <li>Seamless wordpress integration</li>
+                <li>Open source!</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section map" id="map" style="height: 300px">
+
+</section>
+<section class="section banner">
+    <div class="container">
+        <div id="slider" class="nivoSlider">
+            <img src="images/nemo.jpg" data-thumb="images/toystory.jpg" alt="" />
+            <img src="images/toystory.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+            <img src="images/up.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+            <img src="images/walle.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="libs/jquery/jquery3.6.1.js"></script>
+<script type="text/javascript" src="libs/nivoslider/jquery.nivo.slider.js">
+</script>
+<script type="text/javascript">
+        $('#slider').nivoSlider();
+</script>
+<script type="text/javascript" src="libs/megamenu/js/megamenu.js"></script>
+<script type="text/javascript">
+    let map;
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 20.9837497, lng: 105.8586061 },
+            zoom: 18,
+        });
+    }
+
+    window.initMap = initMap;
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?AIzaSyA66KwUrjxcFG5u0exynlJ45CrbrNe3hEc&callback=initMap">
+</script>
+</body>
+</html>
