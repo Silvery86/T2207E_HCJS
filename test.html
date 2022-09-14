@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css"/>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/test.css">
+
 </head>
-<body>
+<body class="all">
 <section class="section top-page">
     <div class="container">
 
@@ -16,16 +18,40 @@
 
 <header class="section header">
     <div class="container">
-
-
-
+        <i class="fa-solid fa-registered"></i>
+        <h1>REGISTER</h1>
     </div>
 </header>
 
 
 <section class="section main">
     <div class="container">
+        <form method="get" action="#">
+            <label><i class="fa-regular fa-user"></i></label>
+            <input type="text" name="username" placeholder="Username" required/>
+            <br/>
+            <br/>
+            <label><i class="fa-sharp fa-solid fa-unlock-keyhole"></i></label>
+            <input type="password" name="your_pwd1" placeholder="........" required/>
+            <br/>
+            <br/>
+            <label><i class="fa-sharp fa-solid fa-unlock-keyhole"></i></label>
+            <input type="password" name="your_pwd2" placeholder="............." required/>
+            <br/>
+            <br/>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" name="your_email" placeholder="E-mail" required/>
+            <br/>
+            <br/>
+            <label class="box"><input type="checkbox" name="confirm" value="Yes"/> I agree to the <a href="#">Term of Services</a></label>
+            <br/>
+            <br/>
+            <button type="submit">Submit</button>
+            <br/>
+            <br/>
+            <label>Already a member? <a href="#"><b>Login here</b></a></label>
 
+        </form>
 
     </div>
 </section>
